@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+
+.conteudo {
+    background: #333;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display:flex;
+}
+
+.cabecalho {
+    background: #333;
+    border-bottom: solid 5px #4faddb;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: inline-block;
+    height: 80px;
+    padding: 15px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+
+.foto img{
+    width:500px;
+    height: 330px;
+    float: left;
+    padding: 10px;
+    display:flex;
+}
+
+.foto1 img{
+    width:500px;
+    height:330px;
+    float: left;
+    padding: 10px;
+    display:flex;
+     
+}
+
+.foto2 img{
+    width:500px;
+    height:330px;
+    float: left;
+    padding: 10px;
+    display:flex;
+}
+
+.foto3 img{
+    width:500px;
+    height:330px;
+    float: left;
+    padding: 10px;
+    display:flex;
+}
+
+h1{
+    padding:3px;
+    margin:0;
+    font-family: 'Swanky and Moo Moo', cursive;
+    background-color: #4faddb;
+    color:#FFFFFF;
+    display:flex;
+    
+  }
+h4{
+    text-align:left;
+    padding: 72px;
+    font-family: 'B612 Mono', monospace;
+    font-size: 20px;
+    display:flex;
+  }
+.menu-toggle {
+    float: right;
+    color: #eee;
+    background-color: #555;
+    border: solid 1 px #777;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 20px 15px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0%;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.3em;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+.autenticacao {
+    float: right;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu a:hover,
+.menu a.selected {
+    background-color: #4faddb;
+    color: #000;
+}
+
+
+
+@media (min-width: 768px){
+.foto img{
+    flex-flow: column wrap;
+    display:flex;
+}
+
+.foto1 img{
+    flex-flow: column wrap;
+    display:flex;
+}
+
+.foto2 img{
+    flex-flow: column wrap;
+    display:flex;
+}
+
+.foto3 img{
+    flex-flow: column wrap;
+    display:flex;
+}
+
+h1{
+    flex-flow: row wrap;
+    justify-content:flex;
+}
+
+h4{
+    flex-flow: row wrap;
+    justify-content:flex;
+}
+.conteudo{
+    flex-flow: row wrap;
+    justify-content:flex;
+}
+}
+
+.nome {
+    font-size: 15px;
+    padding: -2px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    
+}
+
+.comentarios {
+    font-size: 25px;
+    font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+.cont {
+
+    height: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+input {
+    box-sizing: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+label  {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
